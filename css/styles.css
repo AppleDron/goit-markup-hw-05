@@ -113,7 +113,7 @@ a {
 
   position: absolute;
   left: 0;
-  bottom: -28px;
+  bottom: -29px;
 }
 
 .contact-list {
@@ -260,6 +260,9 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  background-color: #f4f4fd;
+  border-radius: 4px;
 }
 
 .about-icons {
@@ -681,6 +684,9 @@ a {
   left: 0;
 
   background-color: rgba(46, 47, 66, 0.4);
+
+  transition: visibility 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-window {
@@ -696,7 +702,7 @@ a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  transition: width 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: width 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop.is-hidden .modal-window {
