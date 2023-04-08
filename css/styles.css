@@ -99,23 +99,6 @@ a {
   gap: 40px;
 }
 
-.current {
-  position: relative;
-}
-
-.current::after {
-  display: flex;
-  content: "";
-  width: 100%;
-  height: 4px;
-  border-radius: 2px;
-  background-color: #404bbf;
-
-  position: absolute;
-  left: 0;
-  bottom: -29px;
-}
-
 .contact-list {
   display: flex;
   gap: 40px;
@@ -159,6 +142,24 @@ a {
 .nav-list-item:hover,
 .nav-list-item:focus {
   color: #404bbf;
+}
+
+.current {
+  position: relative;
+  color: #404bbf;
+}
+
+.current::after {
+  display: flex;
+  content: "";
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #404bbf;
+
+  position: absolute;
+  left: 0;
+  bottom: -29px;
 }
 
 .contact {
